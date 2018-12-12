@@ -1,12 +1,22 @@
 <!DOCTYPE html>
 <html>
-    <head></head>
+    <head>
+        <title>Hacktoberfest Status Checker</title>
+        <link rel="stylesheet"
+            type="text/css"
+            href="style.css" />
+    </head>
     <body>
         <script src="index.js"></script>
-        <div>
-            <input type="text" placeholder="Username" id="username"/>
-            <input type="button" value="Check status" onclick="checkStatus()"/>
+        <div class="main">
+            <div class="title-div">
+                <span class="title">Hacktoberfest 2018 Status Checker</span>
+            </div>
+            <div>
+                <input type="text" placeholder="Username" id="username"/>
+                <input type="button" value="Check status" onclick="checkStatus()"/>
+            </div>
+            <span id="response"></span>
         </div>
-        <span id="response"></span>
     </body>
 </html>
