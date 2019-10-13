@@ -1,5 +1,3 @@
-base_url = 'https://api.github.com/search/issues?q=-label:invalid+created:2018-09-30T10%3A00%3A00%2B00%3A00..2018-11-01T12%3A00%3A00%2B00%3A00+type:pr+is:public+author:';
-
 function checkStatus() {
 	const http = new XMLHttpRequest();
 
@@ -10,8 +8,12 @@ function checkStatus() {
 		}
 	};
 
-	username = document.getElementById('username').value;
-	request_url = base_url + username;
+	year = new Date().getFullYear();
+	month = new Date().getMonth() + 1; // 0 based indexing
+	if(month < 10) year--;
+
+	username = document.getElementById('username_text').value;
+	request_url = `https://api.github.com/search/issues?q=-label:invalid+created:${year}-09-30T10%3A00%3A00%2B00%3A00..${year}-11-01T12%3A00%3A00%2B00%3A00+type:pr+is:public+author:${username}`;
 
 	http.open('GET', request_url, true);
 	http.send();

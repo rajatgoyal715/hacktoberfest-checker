@@ -6,8 +6,7 @@ html, body {
 }
 
 body {
-    background: linear-gradient(to left top, violet, indigo, blue, green, yellow, orange, red);
-    /* background: cyan; */
+    background: #abcdef;
 }
 
 .title-div {
@@ -21,10 +20,16 @@ body {
     color: white;
 }
 
-.username {
-
+.content {
+    text-align: center;
+    vertical-align: true;
 }
 
-.button {
+#username_text {
+}
 
+#status_btn {
+}
+
+#response {
 }
