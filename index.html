@@ -12,11 +12,13 @@
             <div class="title-div">
                 <span class="title">Hacktoberfest 2018 Status Checker</span>
             </div>
-            <div>
-                <input type="text" placeholder="Username" id="username"/>
-                <input type="button" value="Check status" onclick="checkStatus()"/>
+            <div class="content">
+                <input type="text" placeholder="Username" id="username_text"/>
+                <input type="button" value="Check status" onclick="checkStatus()" id="status_btn"/>
             </div>
-            <span id="response"></span>
+            <div style="text-align: center;">
+                <span id="response"></span>
+            </div>
         </div>
     </body>
 </html>
