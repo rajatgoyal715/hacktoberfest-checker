@@ -9,6 +9,10 @@ body {
     background: #abcdef;
 }
 
+.image-div {
+    margin-top: 50px;
+}
+
 .title-div {
     text-align: center;
     padding: 40px 0;
