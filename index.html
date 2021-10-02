@@ -1,26 +1,50 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Hacktoberfest Status Checker</title>
-        <link rel="stylesheet"
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+     <!-- Bootstrap CSS -->
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+     <link rel="stylesheet"
             type="text/css"
             href="style.css" />
-    </head>
-    <body>
+    <title>Hello, world!</title>
+  </head>
+  <body>
+  
         <script src="index.js"></script>
-        <div class="main">
+        <div class="main" align="center">
             <div class="image-div" style="text-align: center">
+                <br>
+                <br>
                 <img alt="Hacktoberfest 2021 Logo" src="https://hacktoberfest.digitalocean.com/_nuxt/img/logo-hacktoberfest-full.f42e3b1.svg" height="200px" align="center" />
             </div>
             <div class="title-div">
-                <span class="title">Hacktoberfest 2021 Status Checker</span>
+                <font color="white">  
+                <h1 class="mb-3">Hacktoberfest 2021 Status Checker</h1>
+                </font> 
             </div>
             <div class="content">
-                <input type="text" placeholder="Username" id="username_text"/>
-                <input type="button" value="Check status" onclick="fetchProfile()" id="status_btn"/>
+                <!-- <input type="text" placeholder="Username" id="username_text"/> -->
+                <ul class="formList" class="wrapper" >
+                        <input type="email" class="form-control" style="width:250px;" id="username_text" aria-describedby="emailHelp" placeholder="Username"> 
+                        <br>
+                        <input type="button" class="btn btn-outline-dark" value="Check status" onclick="fetchProfile()" id="status_btn"/> 
+                    
+                </ul>
+                
             </div>
+
+            
             <div style="text-align: center;">
-                <span id="response"></span>
+                <br>
+                <br>
+                
+                
+                <span id="response">
+                </span>
+                
+           
             </div>
             <div>
                 <img id="user-avatar" alt="User Avatar" style="visibility: hidden"/>
