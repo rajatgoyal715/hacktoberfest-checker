@@ -28,3 +28,7 @@ body {
     text-align: center;
     vertical-align: true;
 }
+ul {
+  display: table;
+  margin: 0 auto;
+}
