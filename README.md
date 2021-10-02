@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="Hacktoberfest 2019 Logo" src="https://hacktoberfest.digitalocean.com/assets/logo-hf19-full-10f3c000cea930c76acc1dedc516ea7118b95353220869a3051848e45ff1d656.svg" />
+  <img alt="Hacktoberfest 2021 Logo" src="https://hacktoberfest.digitalocean.com/_nuxt/img/logo-hacktoberfest-full.f42e3b1.svg" />
 </p>
 
 # hacktoberfest-checker
