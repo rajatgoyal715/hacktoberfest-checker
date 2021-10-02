@@ -17,10 +17,13 @@
             </div>
             <div class="content">
                 <input type="text" placeholder="Username" id="username_text"/>
-                <input type="button" value="Check status" onclick="checkStatus()" id="status_btn"/>
+                <input type="button" value="Check status" onclick="fetchProfile()" id="status_btn"/>
             </div>
             <div style="text-align: center;">
                 <span id="response"></span>
+            </div>
+            <div>
+                <img id="user-avatar" alt="User Avatar" style="visibility: hidden"/>
             </div>
         </div>
     </body>
