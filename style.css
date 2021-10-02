@@ -9,6 +9,10 @@ body {
     background: #abcdef;
 }
 
+.image-div {
+    margin-top: 50px;
+}
+
 .title-div {
     text-align: center;
     padding: 40px 0;
@@ -23,13 +27,4 @@ body {
 .content {
     text-align: center;
     vertical-align: true;
-}
-
-#username_text {
-}
-
-#status_btn {
-}
-
-#response {
 }
